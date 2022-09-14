@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 70px 1fr 1fr;
+    gap: 2px;
+}
+
+.header {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #e9d5ff;
+    align-items: center;
+    border-bottom: solid rgb(139, 139, 139) 1px;
+}
+
+.index{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    display: flex;
+    align-items: center;
+    background-color: #f3e8ff;
+    padding: 30px;
+}
+.index div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #475569 ;
+    color: white;
+}
+label{
+    padding-right: 10px;
+}
+h2{
+    padding-left: 100px;
+}
+input{
+    border-radius: 5px;
+    border: solid 1px;
+    padding: 5px;
+}
+
+#mylibrary{
+    grid-column: 2/5;
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: white;
+    gap: 5px;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6dff8;
+    border-radius: 5px;
+}
+
+.book div{
+    background-color: #e6dff8;
+    border-bottom: #001129 solid 1px;
+}
+
+
+.submit{
+    margin-left: 35%;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    background-color: blue;
+    color: blanchedalmond;
+}
+
+
+
+
